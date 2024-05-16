@@ -7,7 +7,6 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="../styles/register.css">
     
-    <script src="../scripts/password.js" defer></script>
 </head>
 <body>
     <div class="page">
@@ -70,9 +69,9 @@ function redefinePassword($dataUser) {
         echo '<script>window.location.href = "login.php";</script>';
         exit;
     } elseif (isset($data['msg'])) {
-        echo $data['msg']; // Se houver uma mensagem de erro da API, exiba-a
+        echo $data['msg'];
     } else {
-        echo "Erro ao redefinir a senha."; // Caso contrário, exiba uma mensagem genérica de erro
+        echo "Erro ao redefinir a senha."; 
     }
 }
 ?>

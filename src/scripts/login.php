@@ -57,7 +57,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($response->token)) {
             session_start();
             $_SESSION['token'] = $response->token;
-            // Redirecionamento usando JavaScript
             echo '<script>window.location.href = "./index.php";</script>';
             exit();
         } else {

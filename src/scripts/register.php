@@ -77,9 +77,9 @@ function registerUser($dataUser) {
         echo '<script>window.location.href = "login.php";</script>';
         exit;
     } elseif (isset($data['msg'])) {
-        echo $data['msg']; // Se houver uma mensagem de erro da API, exiba-a
+        echo $data['msg']; 
     } else {
-        echo "Erro ao registrar o usuário."; // Caso contrário, exiba uma mensagem genérica de erro
+        echo "Erro ao registrar o usuário."; 
     }
 }
 ?>

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esqueci minha senha</title>
     <link rel="stylesheet" href="../styles/password.css">
-    <script src="../scripts/forgotPass.js" defer></script>
 </head>
 <body>
     <div class="page">
